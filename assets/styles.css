@@ -2154,9 +2154,8 @@ input[type="button"]:hover {
 
 	}
 
-	.center-image p {
-		height: 40px;
-	}
+	
+		
 
 		.image-text2 {
 			display: block;
@@ -2191,5 +2190,7 @@ input[type="button"]:hover {
 	
 		.image-text2, .image-text3, .image-text4 {
 			float: none	
-		}	
+		}
+
+	}	
 }		
