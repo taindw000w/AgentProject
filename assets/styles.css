@@ -1664,15 +1664,6 @@ input[type="button"]:hover {
 				}
 				
 
-	
-@media (min-width: 445px) and (max-width: 515px) {
-
-	.currency_block {
-			margin: 30px 153px;
-		}
-}
-
-
 @media (max-width: 525px) {
 
 	.container__social {
