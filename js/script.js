@@ -1,5 +1,3 @@
-
-
 $(function () {
 
 	$('.сurrency').on('click', function () {
@@ -17,7 +15,6 @@ $(function () {
 	});
 
 
-
 	$('.сurrency__second').on('click', function () {
 		$.get('http://data.fixer.io/api/latest',
 			{ 'access_key': '72928c66b4244f799bf46474f19ce3cf' },
@@ -29,8 +26,6 @@ $(function () {
 				let rubUSD = rub / usd
 
 				let score_doub = $('.usd-rub__second').text(rubUSD.toFixed(3))
-
-
 			});
 
 	});
@@ -41,7 +36,4 @@ $(function () {
 			$('body').toggleClass('lock');
 		});
 	});
-
-
-
 });
